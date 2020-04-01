@@ -5,8 +5,12 @@ per i multipli di 5 stampi Buzz.
 per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
  */
 
+// CREO UNA VARIABILE CHE CONTERRA' IL PUNTAMENTO ALL'ELEMENTO
 
 var puntatore = document.getElementById('lista');
+
+// INIZIALIZZO LA VARIABILE DI TIPO STRINGA CHE CONTERRA' I VALORI DA STAMPARE
+
 var valStampare = '';
 // CREO UN CICLO FOR CHE STAMPI I NUMERI CON CONTATORE INIZIALIZZATO A 1 E VADA FINO A 100
 for (var i = 1; i <= 100; i++) {
@@ -37,4 +41,5 @@ for (var i = 1; i <= 100; i++) {
     }
     
 }
+// INSERISCO ALL'INTERNO DEL DOCUMENTO IL VALORE 
 puntatore.innerHTML = valStampare;
